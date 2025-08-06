@@ -4,7 +4,7 @@
         <div style="margin-bottom: 10px;" class="row">
             <div class="col-lg-12">
                 <a class="btn btn-success" href="{{ route('admin.allocations.create') }}">
-                    {{ trans('global.add') }} {{ trans('cruds.allocation.title_singular') }}
+                    {{ trans('global.add') }} {{ trans('cruds.allocation.title_singular') }} Helo nani
                 </a>
                 <button class="btn btn-warning" data-toggle="modal" data-target="#csvImportModal">
                     {{ trans('global.app_csvImport') }}
